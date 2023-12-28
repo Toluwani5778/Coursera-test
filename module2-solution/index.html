@@ -2,75 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Media Queries</title>
-<style>
-
-/********** Base styles **********/
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
-  border: 1px solid black;
-  margin-bottom: 15px;
-}
-#p1 {
-  background-color: #A52A2A;
-  width: 300px;
-  height: 300px;
-}
-#p2 {
-  background-color: #DEB887;
-  width: 50px;
-  height: 50px;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  #p1 {
-    width: 80%;
-  }
-  #p2 {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-/********** Tablet view **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  #p1 {
-    width: 50%;
-  }
-  #p2 {
-    width: 100px;
-    height: 100px;
-  }
-  body {
-    background-color: blue;
-  }
-}
-
-/********** Mobile view **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  #p1 {
-    width: 50%;
-  }
-  #p2 {
-    width: 100px;
-    height: 100px;
-  }
-  body {
-    background-color: blue;
-  }
-}
-
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 2 Homework</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Media Queries</h1>
-
-<p id="p1"></p>
-<p id="p2"></p>
+<h1>Our Menu</h1>
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-1"><p>
+Indulge in the delectable world of our chicken menu, where each dish is a flavorful journey of culinary delight. From succulent grilled chicken to mouthwatering fried favorites, our menu is a celebration of poultry perfection. Whether you crave classic comfort or crave innovative twists, our chicken dishes are crafted with passion and served to satisfy every palate. Elevate your dining experience with our irresistible chicken menu, where every bite is a taste of culinary excellence. <a id ="p1">Chicken</a> </p></div>
+  <div class="col-lg-4 col-md-6 col-sm-1"><p>
+Savor the rich and robust flavors of our beef menu, a symphony of culinary craftsmanship that promises an exceptional dining experience. From perfectly seared steaks to savory beef stews, each dish is meticulously prepared to elevate your taste buds to new heights. Our beef menu is a celebration of quality cuts, expertly seasoned and cooked to perfection. Whether you prefer the classic elegance of a prime rib or the bold flavors of a beef stir-fry, our menu offers a diverse range of beef creations to satisfy every carnivorous craving. Embark on a gastronomic journey with our beef menu, where passion meets perfection in every savory bite. <a id ="p2">Beef</a> </p></div>
+  <div class="col-lg-4 col-md-12 col-sm-1"><p>
+Dive into the exquisite world of our sushi menu, where artistry and flavor unite to create an unparalleled culinary experience. Immerse yourself in the delicate balance of fresh, high-quality ingredients expertly crafted into bite-sized masterpieces. From traditional nigiri to avant-garde rolls, our sushi menu showcases a symphony of textures and tastes that dance on your palate. Each piece is a work of edible art, a testament to the skill and precision of our sushi chefs. Whether you're a sushi connoisseur or a first-time adventurer, our menu offers a delectable array of options to satisfy every sushi craving. Embark on a culinary journey and let the vibrant colors and exquisite flavors of our sushi menu transport you to the heart of Japan's culinary traditions. <a id ="p3">Sushi</a> </p></div>
 
 </body>
 </html>

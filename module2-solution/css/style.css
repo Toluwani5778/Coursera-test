@@ -1,1 +1,103 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif; /* Optional: Set your desired font-family */
+  color: black;
+  float: left;
+  padding: 0;
+}
 
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  float: none;
+  font-size: 175%;
+}
+
+p {
+  border: 1px solid black; /* Changed border thickness to 1px */
+  margin: 10px; /* Increased vertical spacing between sections */
+  margin-right, margin-left: 10px;
+  background-color: #999999;
+  overflow: hidden;
+  height: 150px;
+  font-size: 100%;
+  padding: 10px; /* Adjusted padding for better spacing */
+  padding-top: 40px;
+  position: relative;
+}
+
+#p1 {
+  background-color: #d59898;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 125%;
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  top: -1px;
+  right: -1px;
+  position: absolute;
+  padding: 5px; /* Adjusted padding for better spacing */
+}
+
+#p2 {
+  background-color: #c14543;
+  color: white;
+  border: 1px solid black;
+  font-weight: bold;
+  height: 30px;
+  width: 120px;
+  font-size: 125%;
+  top: -1px;
+  right: -1px;
+  position: absolute;
+  text-align: center;
+  padding: 5px; /* Adjusted padding for better spacing */
+}
+
+#p3 {
+  background-color: #e5d198;
+  font-weight: bold;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  width: 120px;
+  font-size: 125%;
+  top: -1px;
+  right: -1px;
+  position: absolute;
+  padding: 5px; /* Adjusted padding for better spacing */
+}
+
+/********** Desktop view **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 31%; /* Slightly adjusted width for better alignment */
+    margin-right: 2%; /* Added margin for horizontal spacing */
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 48%; /* Adjusted width for better alignment */
+    margin-right: 2%; /* Added margin for horizontal spacing */
+  }
+  .col-md-12 {
+    width: 100%;
+    margin-right: 0; /* Reset margin for full width */
+  }
+}
+
+/********** Mobile view **********/
+@media (max-width: 767px) {
+ .col-sm-1 {
+    width: 100%;
+  }
+}
