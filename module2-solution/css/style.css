@@ -22,7 +22,6 @@ h1 {
 p {
   border: 1px solid black; /* Changed border thickness to 1px */
   margin: 10px; /* Increased vertical spacing between sections */
-  margin-right, margin-left: 10px;
   background-color: #999999;
   overflow: hidden;
   height: 150px;
@@ -78,16 +77,15 @@ p {
 /********** Desktop view **********/
 @media (min-width: 992px) {
   .col-lg-4 {
-    width: 31%; /* Slightly adjusted width for better alignment */
-    margin-right: 2%; /* Added margin for horizontal spacing */
+    width: 33.33%; /* Slightly adjusted width for better alignment */
   }
 }
 
 /********** Tablet view **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    width: 48%; /* Adjusted width for better alignment */
-    margin-right: 2%; /* Added margin for horizontal spacing */
+    width: 50%; /* Adjusted width for better alignment */
+
   }
   .col-md-12 {
     width: 100%;
